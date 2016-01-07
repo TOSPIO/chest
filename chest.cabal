@@ -21,7 +21,11 @@ executable chest
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.8 && <4.9
+                     , containers >=0.5 && <0.6
+                     , hashmap >=1.3 && <1.4
+                     , lens >=4.13 && <4.14
                      , mime >=0.4 && <0.5
+                     , sqlite >=0.5 && <0.6
                      , text >= 1.2 && <1.3
   hs-source-dirs:      src
   default-language:    Haskell2010

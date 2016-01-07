@@ -2,10 +2,9 @@
 
 module Chest.Link where
 
-import Data.Text
-import Codec.MIME.Type
-
 data Link where
-  Link :: { resource :: String
-          , mime :: String
+  Link :: { _id :: Int
+          , _name :: String
+          , _resource :: String
+          , _mime :: String
           } -> Link
